@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mm19</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="eocjs-newsticker.css" /><link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	
+	<div class="clearfix">
+		<div class="ilotuli"></div>
+	</div>
+
+	<div class="footer">
+		<div id="example">❄🎅🎄Hyvää Joulua!❄🎅🎄С Рождеством!❄🎅🎄Feliz navidad!❄🎅🎄Wesołych świąt!❄🎅🎄З Різдвом!❄🎅🎄Chúc mừng giáng sinh!❄🎅🎄聖誕快樂!❄🎅🎄Mutlu Noeller!❄🎅🎄God Jul!</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="jquery.fireworks.js"></script>
+	
+	<script src="eocjs-newsticker.js"></script>
+	<script type="text/javascript">
+		$("#example").eocjsNewsticker({
+			type:'static',
+			speed: 20,
+			divider:'❄'
+		});
+	</script>
+
+	<script type="text/javascript">
+		$('.ilotuli').fireworks({
+  			sound:true,// sound effect
+  			opacity: 1,
+  			width:'100%',
+  			height:'100%'
+		});</script>
+
+</body>
+</html>

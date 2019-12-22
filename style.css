@@ -1,0 +1,9 @@
+/*@font-face {
+    font-family: 'pixelInform';
+    src: url('./VT323-Regular.ttf');
+}*/
+
+body {
+	font-family: Avenir/*pixelInform*/;
+	color: lightblue;
+}
